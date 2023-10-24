@@ -1,0 +1,6 @@
+git init
+git add Dorokhin.txt
+git commit -m "First Commit"
+git branch -m main
+git remote add origin https://github.com/SanyaBroodmother/SheptunAnton.git
+git push -u origin main
