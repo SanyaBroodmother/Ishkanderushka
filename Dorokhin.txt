@@ -1,6 +1,7 @@
-git init
-git add Dorokhin.txt
-git commit -m "First Commit"
-git branch -m main
-git remote add origin https://github.com/SanyaBroodmother/SheptunAnton.git
-git push -u origin main
+cd C:\Users\user\Desktop\Dorokhin - заходит в нужную папку
+git init - инициализирует новый репозиторий Git в текущей папке
+git add Dorokhin.txt - Переносит изменения из рабочего каталога в раздел проиндексированных файлов
+git commit -m "First Commit" - берёт все данные, добавленные в индекс с помощью git add , и сохраняет их
+git branch -m main - умеет перечислять ваши ветки, создавать новые, удалять и переименовывать их
+git remote add origin https://github.com/SanyaBroodmother/Ishkanderushka.git - добавление или подключение к удаленному репозиторию.
+git push -u origin main - передаёт в удалённый репозиторий изменения, сделанные в локальном репозитории
